@@ -1,84 +1,53 @@
-# 🎲 Jogo de Adivinhação em Java
+# Jokenpô em Java
 
-Projeto simples desenvolvido em Java que desafia o usuário a adivinhar um número aleatório gerado pelo computador.
+Projeto simples desenvolvido em Java para simular o jogo Jokenpô (Pedra, Papel e Tesoura).
 
-## 📌 Funcionalidades
+## Funcionalidades
 
-- Geração de número aleatório entre 1 e 10.
-- Escolha da quantidade de tentativas.
-- Dicas informando se o número digitado é maior ou menor que a resposta.
-- Mensagem de vitória ao acertar o número.
+* Escolha do jogador através do teclado.
+* Escolha aleatória do computador.
+* Verificação automática do vencedor.
+* Exibição do resultado da partida.
 
-## 🚀 Tecnologias Utilizadas
+## Tecnologias utilizadas
 
-- Java
-- Scanner
-- Random
+* Java
+* Scanner
+* Random
 
-## 📂 Estrutura do Projeto
-
-```text
-src/
-└── Main.java
-```
-
-## ▶️ Como Executar
+## Como executar
 
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/jogo-adivinhacao-java.git
+git clone https://github.com/seu-usuario/jokenpo-java.git
 ```
 
-2. Acesse a pasta:
+2. Entre na pasta do projeto:
 
 ```bash
-cd jogo-adivinhacao-java
+cd jokenpo-java
 ```
 
-3. Compile o projeto:
+3. Compile o arquivo:
 
 ```bash
-javac src/Main.java
+javac Main.java
 ```
 
-4. Execute:
+4. Execute o programa:
 
 ```bash
-java -cp src Main
+java Main
 ```
 
-## 🎮 Exemplo de Uso
+## Regras do jogo
 
-```text
-###################JOGO DE ADIVINHAÇÃO###################
+* Pedra vence Tesoura.
+* Tesoura vence Papel.
+* Papel vence Pedra.
+* Escolhas iguais resultam em empate.
 
-Digite a quantidade de chances desejadas:
-5
-
-Digite um número:
-4
-
-Resposta é maior
-
-Digite um número:
-8
-
-Resposta é menor
-
-Digite um número:
-6
-
-Você acertou!!!
-```
-
-## 📚 Conceitos Trabalhados
-
-- Estruturas de repetição (`for`)
-- Estruturas condicionais (`if/else`)
-- Entrada de dados com `Scanner`
-- Geração de números aleatórios com `Random`
-
-## 👨‍💻 Autor
+## Autor
 
 Desenvolvido por Eduardo Tabosa.
