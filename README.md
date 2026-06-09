@@ -20,13 +20,13 @@ Projeto simples desenvolvido em Java para simular o jogo Jokenpô (Pedra, Papel 
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/Sebasduhg/jokenpo-java.git
+git clone https://github.com/Sebasduhg/jokenpo-em-java.git
 ```
 
 2. Entre na pasta do projeto:
 
 ```bash
-cd jokenpo-java
+cd jokenpo-em-java
 ```
 
 3. Compile o arquivo:
